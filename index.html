@@ -67,18 +67,6 @@ body {
     z-index: 10;
 }
 
-/* Ajustes para móvil */
-@media (max-width: 768px) {
-    .floral-decoration.top-right {
-        position: absolute;
-        width: 180px;
-        height: 400px;
-        top: 60px;
-        right: 0px;
-        pointer-events: none;
-    }
-}
-
 .floral-decoration.bottom-left {
     display: none; /* Solo ocultar el izquierdo, NO el derecho */
 }
@@ -835,8 +823,8 @@ body {
     }
     
     .guest-name {
-        font-size: 32px;
-        padding: 12px 20px;
+        font-size: 34px;
+        padding: 8px 10px;
     }
     
     .date-day {
@@ -853,9 +841,9 @@ body {
     
     .floral-decoration.top-right {
         position: absolute;
-        width: 160px;
+        width: 150px;
         height: 360px;
-        top: 0px;
+        top: 60px;
         right: 0px;
     }
     
@@ -891,16 +879,35 @@ body {
     }
     
     .guest-name {
-        font-size: 20px;
+        font-size: 30px;
+        padding: 6px 8px;
     }
     
     .time-value {
         font-size: 28px;
     }
     
-    .date-line {
-        flex-direction: column;
-        gap: 5px;
+    .floral-decoration.top-right {
+        position: absolute;
+        width: 130px;
+        height: 300px;
+        top: 50px;
+        right: 0px;
+    }
+    
+    .date-label, .date-time {
+        font-size: 16px;
+        letter-spacing: 1px;
+        padding: 6px 10px;
+    }
+    
+    .date-day {
+        font-size: 48px;
+    }
+    
+    .date-month, .date-year {
+        font-size: 14px;
+        letter-spacing: 3px;
     }
     
     .photo-placeholder.photo-1,
